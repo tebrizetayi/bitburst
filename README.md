@@ -19,12 +19,19 @@ c.CREATE DATABASE bitburst;
 2.Running application
 
 a. git clone https://github.com/tebrizetayi/bitburst/ and 
+
 b. After downloading is completed run  "cd bitburst"
+
 c. Open terminal and run command: "go mod init ."
+
 d. Go to the onlineuser folder : "cd onlineuser"
+
 e. Run the onlineservice: "go run main.go"
+
 f. Open new terminal in folder "bitburst"
+
 g. Go to the userservice folder : "cd userservice" 
+
 h. Run the userservice: "go run main.go"
 
 In the terminal for onlineservice you can see the id of the online users
