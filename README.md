@@ -1,14 +1,14 @@
 # bitburst
 
-dataservice- interface for database
+**dataservice**		- interface for database
 
-onlineservice - service for getting a user's online status
+**onlineservice**	- service for getting a user's online status
 
-userservice -service for getting online status of many users
+**userservice**		-service for getting online status of many users
 
-Steps to run the program
+**Steps to run the program**
 
-1.Setting database
+**1.Setting database**
 
 a.docker run -d -p 5432:5432 --name bitburst-postgres -e POSTGRES_PASSWORD=secret  postgres
 
@@ -16,7 +16,7 @@ b.docker exec -it bitburst-postgres psql -U postgres
 
 c.CREATE DATABASE bitburst;
 
-2.Running application
+**2.Running application**
 
 a. git clone https://github.com/tebrizetayi/bitburst/ and 
 
