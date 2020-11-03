@@ -24,7 +24,7 @@ b. After downloading is completed run  "cd bitburst"
 
 c. Open terminal and run command: "go mod init ."
 
-d. Go to the onlineuser folder : "cd onlineuser"
+d. Go to the onlineuser folder : "cd onlineservice"
 
 e. Run the onlineservice: "go run main.go"
 
